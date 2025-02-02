@@ -49,14 +49,21 @@ Compatible with:
 - Direct Neon editor integration
 - Responsive design
 - Glassmorphic UI
+- Matrix Preview:
+  - Accurate 64x32 LED simulation
+  - Real-time wave animation
+  - Pixel-perfect representation
+  - Individual LED visualization
+  - True-to-life color rendering
 
 ## Usage 
 
 1. Visit the web interface
 2. Select a theme or choose "Cycle All Themes"
-3. Click "Run it yourself"
-4. Paste the generated code in the Neon editor
-5. Watch your matrix come alive!
+3. Preview how it will look on your actual matrix
+4. Click "Run it yourself"
+5. Paste the generated code in the Neon editor
+6. Watch your matrix come alive!
 
 ## Hardware Requirements 
 
@@ -136,6 +143,19 @@ def interpolate_color(color1, color2, factor):
 ```
 
 The combination of these mathematical components creates fluid, organic-looking animations that never exactly repeat, similar to the patterns seen in actual lava lamps.
+
+## Preview Feature
+
+The website includes a real-time matrix preview that shows exactly how the animation will appear on your LED matrix:
+
+- Simulates the actual 64x32 LED grid
+- Shows individual LED pixels with proper spacing
+- Renders accurate colors and brightness levels
+- Updates in real-time as waves animate
+- Supports all themes including cycle mode
+- Matches the physical matrix display layout
+
+This preview helps you visualize how your chosen theme will look before uploading to your matrix display.
 
 ## Credits
 
